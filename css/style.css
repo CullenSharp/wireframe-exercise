@@ -1,1 +1,71 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css);
+
+html {
+    font-size: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(102, 100, 110);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+}
+
+header img {
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+header nav {
+    padding: 1rem;
+}
+
+header li {
+    display: inline;
+}
+
+main {
+    width: 1000px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+main img:first-child {
+    margin-bottom: 0px;
+}
+
+article img:first-child {
+    margin-top: 0px;
+}
+
+main img {
+    margin: 30px 30px 0 0;
+}
+
+img:last-child {
+    margin: none;
+}
+
+article{
+    display: block;
+    margin: 30px 0 30px 0;
+}
+
+article:last-child{
+    display: flex;
+    justify-content: space-between;
+    top: 0px;
+    padding-right: 10px;
+}
+
+article:last-child div {
+    text-align: left;
+}
+
+footer {
+    width: 100%;
+    background-color:rgb(102, 100, 110);
+}
