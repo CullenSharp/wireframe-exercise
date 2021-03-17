@@ -3,19 +3,28 @@
 html {
     font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 229, 238);
 }
-
 header {
-    background-color: rgb(102, 100, 110);
+    background-color: rgb(94, 91, 107);
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     top: 0px;
+    text-align: center;
+}
+
+header section {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
 }
 
 header img {
-    padding: 1rem 1rem 1rem 1rem;
+    padding: 1rem 1rem 1rem 0rem;
 }
 
 header nav {
@@ -24,48 +33,111 @@ header nav {
 
 header li {
     display: inline;
+    padding: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(211, 93, 57);
+}
+
+a:hover {
+    color: rgb(222, 229, 238);
+    text-decoration: underline;
 }
 
 main {
-    width: 1000px;
     text-align: center;
     display: block;
     margin: 0 auto;
 }
 
-main img:first-child {
-    margin-bottom: 0px;
+#hero {
+    margin: 30px 0 0 0;
 }
 
-article img:first-child {
-    margin-top: 0px;
-}
-
-main img {
-    margin: 30px 30px 0 0;
-}
-
-img:last-child {
-    margin: none;
-}
-
-article{
-    display: block;
-    margin: 30px 0 30px 0;
-}
-
-article:last-child{
+.section1 {
+    width: 960px;
+    margin: 30px auto 30px auto;
     display: flex;
     justify-content: space-between;
-    top: 0px;
-    padding-right: 10px;
+    align-content: center;
 }
+
+.section2 {
+    width: 960px;
+    height: 375px;
+    margin: 30px auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
 
 article:last-child div {
     text-align: left;
+    margin: 0 0 0 30px;
+}
+
+article:last-child div h2{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: rgb(211, 93, 57);
+}
+
+article:last-child p {
+    padding: .5rem;
+    overflow: scroll;
+    height: 280px;
+    font-size: .8rem;
+    background-color: ghostwhite;
+
+}
+
+article:last-child div h3{
+    width: fit-content;
+    margin-top: 1rem;
+    border: solid rgb(94, 91, 107) .1rem;
+    border-radius: 10px;
+    padding: .5rem;
+    text-align: left;
+    font-size: 1.2rem;
+    background-color: rgb(254, 255, 254);
+}
+
+article:last-child div h3:hover {
+    background-color: rgb(211, 93, 57);
 }
 
 footer {
+    background-color:rgb(94, 91, 107);
     width: 100%;
-    background-color:rgb(102, 100, 110);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0px;
+    text-align: center;
+}
+
+footer section {
+    width: 960px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+footer img {
+    padding: 1rem 1rem 1rem 0rem;
+}
+
+footer nav {
+    padding: 1rem;
+}
+
+footer li {
+    display: inline;
+    padding: 4rem;
 }
